@@ -7,7 +7,11 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
+<<<<<<< HEAD
 const dataPath = path.join(sysRoot, '.milleria')
+=======
+const dataPath = path.join(sysRoot, '.helioslauncher')
+>>>>>>> eb683f89ec14c333163d5a9afdf1d7bbd5d532ab
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 

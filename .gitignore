@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 /node_modules/
 /.vs/
 /.vscode/
 /target/
 /logs/
+=======
+/node_modules/
+/.vs/
+/.vscode/
+/target/
+/logs/
+>>>>>>> eb683f89ec14c333163d5a9afdf1d7bbd5d532ab
 /dist/
